@@ -2,7 +2,8 @@
 
 Full-stack AI-powered shopping assistant for e-commerce.
 
----
+**Tested on:**  
+- Windows 11 (x86_64, Python 3.11, Node.js v22.17.1)  
 
 ## Features
 
@@ -10,14 +11,10 @@ Full-stack AI-powered shopping assistant for e-commerce.
 - **Product recommendations** — Supports both text-based and image-based product search, powered by OpenAI GPT and CLIP.
 - **Image search** — Upload a product photo or screenshot, and the agent will find visually similar items in a predefined catalog.
 
----
-
 ## Overview
 
 - **Frontend:** Modern React app (Material-UI, Markdown, product cards, image upload)
 - **Backend:** FastAPI + OpenAI GPT/CLIP/FAISS for chat and product/image search
-
----
 
 ## Project Structure
 
@@ -30,8 +27,6 @@ Full-stack AI-powered shopping assistant for e-commerce.
 └── README.md         # (this file)
 
 ```
-
----
 
 ## Getting Started
 
@@ -49,8 +44,6 @@ Typical workflow:
    See [frontend/README.md](frontend/README.md) for Node/npm setup and development usage.
 
 3. Visit [http://localhost:3000](http://localhost:3000) to use the agent.
-
----
 
 ## Customization
 

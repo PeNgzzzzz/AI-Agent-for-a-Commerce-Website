@@ -2,8 +2,6 @@
 
 React-based chat UI for e-commerce AI agents, featuring ChatGPT-style streaming replies, image search, and animated product cards.
 
----
-
 ## Features
 
 - Typewriter animation for assistant replies
@@ -11,8 +9,6 @@ React-based chat UI for e-commerce AI agents, featuring ChatGPT-style streaming 
 - Product card recommendation (with animated entry)
 - Markdown support for AI responses
 - Modern, responsive UI (Material-UI, framer-motion)
-
----
 
 ## Quick Start
 
@@ -26,8 +22,6 @@ npm run dev
 * Backend API URL can be set via `.env` (`VITE_BACKEND_URL`)
 * Needs backend endpoints `/chat` (text) and `/search-image` (image)
 
----
-
 ## Usage Highlights
 
 * **Enter** = send message，**Shift+Enter** = newline (input auto-disables during AI reply)
@@ -36,16 +30,12 @@ npm run dev
 * **Product cards** animate in when recommended
 * **All fonts/styles** set in `index.css`
 
----
-
 ## Customization
 
 * Edit card animation: `ProductCard.jsx`
 * Edit message markdown: `MessageBubble.jsx`
 * Change font/size: `index.css`
 * Adjust chat width: `ChatWindow.jsx`
-
----
 
 ## Project Stack
 
