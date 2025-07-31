@@ -1,0 +1,101 @@
+[
+  {
+    "id": "p001",
+    "name": "XX Men's Road Running Shoes",
+    "category": "footwear",
+    "tags": ["running", "road", "lightweight"],
+    "use_cases": ["road running", "daily jogs"],
+    "description": "Comfortable road running shoes with responsive cushioning and breathable mesh upper.",
+    "features": ["breathable", "lightweight", "non-slip sole"],
+    "price": 75.00,
+    "image_path": "images/p001.jpg"
+  },
+  {
+    "id": "p002",
+    "name": "XX Men's Trail Running Shoes",
+    "category": "footwear",
+    "tags": ["trail", "grip", "rugged"],
+    "use_cases": ["trail running", "off-road hiking"],
+    "description": "Aggressive grip and trail-ready features for muddy, soft ground and uneven terrain.",
+    "features": ["aggressive grip", "durable", "trail optimized"],
+    "price": 130.00,
+    "image_path": "images/p002.jpg"
+  },
+  {
+    "id": "p003",
+    "name": "XX Men's Basketball Shoes",
+    "category": "footwear",
+    "tags": ["basketball", "court", "cushioned"],
+    "use_cases": ["basketball games", "indoor court"],
+    "description": "Cushioned midsole for high-impact comfort and lateral support during basketball games.",
+    "features": ["cushioned", "breathable", "lateral support", "non-slip sole"],
+    "price": 140.00,
+    "image_path": "images/p003.jpg"
+  },
+  {
+    "id": "p004",
+    "name": "XX Men's Rain Jacket",
+    "category": "outerwear",
+    "tags": ["rain", "hiking", "waterproof"],
+    "use_cases": ["rainy hikes", "wet weather golf"],
+    "description": "Lightweight, packable rain jacket with Omni-Tech waterproof-breathable protection.",
+    "features": ["waterproof", "adjustable hood", "packable"],
+    "price": 65.00,
+    "image_path": "images/p004.jpg"
+  },
+  {
+    "id": "p005",
+    "name": "XX Men's Softshell Jacket",
+    "category": "outerwear",
+    "tags": ["cold weather", "windproof", "golf"],
+    "use_cases": ["cold weather golf", "windy commutes"],
+    "description": "Windproof, water-resistant softshell ideal for chilly outdoor activities.",
+    "features": ["windproof", "soft fleece lining", "zip pockets"],
+    "price": 149.00,
+    "image_path": "images/p005.jpg"
+  },
+  {
+    "id": "p006",
+    "name": "XX Men's Golf Pants",
+    "category": "bottomwear",
+    "tags": ["golf", "stretch", "breathable"],
+    "use_cases": ["golf tournament", "practice"],
+    "description": "Moisture-wicking golf pants with stretch fabric for full range of motion.",
+    "features": ["stretchy", "moisture-wicking", "UV protection"],
+    "price": 85.00,
+    "image_path": "images/p006.jpg"
+  },
+  {
+  "id": "p007",
+  "name": "XX Men's Fleece Pants",
+  "category": "bottomwear",
+  "tags": ["casual", "comfortable", "breathable"],
+  "use_cases": ["daily wear", "lounge", "outdoor activities"],
+  "description": "Soft, fleece-lined pants designed for comfort and easy movement during casual wear or lounging.",
+  "features": ["fleece-lined", "comfortable", "breathable", "elastic waistband"],
+  "price": 50.00,
+  "image_path": "images/p007.jpg"
+  },
+  {
+    "id": "p008",
+    "name": "XX Men's Polo Shirt",
+    "category": "tops",
+    "tags": ["golf", "summer", "lightweight"],
+    "use_cases": ["golf", "outdoor sports"],
+    "description": "Breathable, moisture-wicking polo designed for optimal airflow and movement.",
+    "features": ["Dri-FIT fabric", "moisture-wicking", "lightweight"],
+    "price": 55.00,
+    "image_path": "images/p008.jpg"
+  },
+  {
+    "id": "p009",
+    "name": "XX Men's Fleece Hoodie",
+    "category": "tops",
+    "tags": ["casual", "fleece", "cold weather"],
+    "use_cases": ["daily wear", "post-workout"],
+    "description": "Classic hoodie made with warm fleece material for comfort in cooler temperatures.",
+    "features": ["fleece-lined", "kangaroo pocket", "ribbed cuffs"],
+    "price": 40.00,
+    "image_path": "images/p009.jpg"
+  }
+]

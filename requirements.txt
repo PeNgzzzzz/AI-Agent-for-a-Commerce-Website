@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+Pillow
+transformers
+python-multipart
+faiss-cpu
+torch
+torchvision
+torchaudio
