@@ -60,6 +60,28 @@ uvicorn backend.main:app --reload
 * Images are collected from the internet and for demo/research only;
   if using this project publicly, please check and replace with your own assets as needed.
 
+## Technology Choices & Rationale
+
+* **FastAPI**
+  A modern, high-performance web framework for building APIs with Python 3.7+. It provides automatic OpenAPI docs, async support, and excellent developer ergonomics.
+
+* **OpenAI GPT (via openai-py)**
+  Used for natural language conversation, product Q\&A, and recommendations. OpenAI’s models provide robust, production-ready language understanding with minimal setup.
+
+* **CLIP + transformers**
+  CLIP enables semantic image understanding and comparison; Huggingface’s `transformers` library allows easy integration and model management for both text and image pipelines.
+
+* **FAISS**
+  Facebook’s FAISS library enables fast, efficient vector similarity search for retrieving relevant products from the catalog based on embeddings.
+
+* **Uvicorn**
+  Lightweight ASGI server, pairs naturally with FastAPI for local development and production deployment.
+
+* **Pillow**
+  For robust image file handling and manipulation.
+
+These choices provide a highly scalable, modern backend for AI-powered product chat and search, making it easy to extend or swap models and adapt to GPU/CPU setups as needed.
+
 ---
 
 **Edit products in `catalog.json`.

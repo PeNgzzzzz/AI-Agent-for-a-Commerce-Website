@@ -31,9 +31,11 @@ export default function App({ mode, toggleMode }) {
   const bottomRef = useRef()
   const abortCtrlRef = useRef(null)
 
+  const scrollToBottom = () => bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
+
   // Scroll to latest message whenever messages/streaming/animation changes
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
+    scrollToBottom()
   }, [messages, loading, streamingMessage])
 
   // Show error in Snackbar
@@ -188,7 +190,7 @@ export default function App({ mode, toggleMode }) {
       </AppBar>
 
       <Box flex={1} overflow="auto" p={2} bgcolor="background.default">
-        <ChatWindow messages={displayMessages} loading={loading} />
+        <ChatWindow messages={displayMessages} loading={loading} onImageLoad={scrollToBottom} />
         <div ref={bottomRef} />
       </Box>
 

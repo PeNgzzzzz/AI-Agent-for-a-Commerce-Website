@@ -9,7 +9,7 @@ import TypingIndicator from './TypingIndicator'
  * Chat window displaying all messages and loading indicator.
  * Renders user/assistant bubbles, image previews, and product cards.
  */
-export default function ChatWindow({ messages, loading }) {
+export default function ChatWindow({ messages, loading, onImageLoad }) {
   return (
     <Box
       sx={{
@@ -32,6 +32,7 @@ export default function ChatWindow({ messages, loading }) {
               key={'img-' + i}
               role={msg.role || 'user'}
               content={{ image: msg.content.image }}
+              onImageLoad={onImageLoad} 
             />
           )
         }
@@ -41,6 +42,7 @@ export default function ChatWindow({ messages, loading }) {
             key={'msg-' + i}
             role={msg.role}
             content={msg.content}
+            onImageLoad={onImageLoad} 
           />
         )
       })}

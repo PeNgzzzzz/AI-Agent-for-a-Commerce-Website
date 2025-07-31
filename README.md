@@ -3,7 +3,7 @@
 Full-stack AI-powered shopping assistant for e-commerce.
 
 **Tested on:**  
-- Windows 11 (x86_64, Python 3.11, Node.js v22.17.1)  
+- Windows 11 (x86_64, Python 3.13.5, Node.js v22.17.1, Npm v11.5.1)
 
 ## Features
 

@@ -9,7 +9,7 @@ import ReactMarkdown from 'react-markdown'
  * Single message bubble, renders user/assistant messages and images.
  * Assistant supports markdown; user uses plain text.
  */
-export default function MessageBubble({ role, content }) {
+export default function MessageBubble({ role, content, onImageLoad }) {
   const theme = useTheme()
   const isUser = role === 'user'
 
@@ -44,6 +44,9 @@ export default function MessageBubble({ role, content }) {
           bgcolor: isUser ? userBg : assistantBg,
           color: isUser ? userColor : assistantColor,
           fontSize: 18,
+          wordBreak: 'break-word',
+          whiteSpace: 'pre-wrap',
+          overflowWrap: 'break-word',
         }}
       >
         {typeof content === 'object' && content?.image ? (
@@ -57,6 +60,7 @@ export default function MessageBubble({ role, content }) {
               borderRadius: 8,
               objectFit: 'cover',
             }}
+            onLoad={onImageLoad}
           />
         ) : isUser ? (
           <Typography variant="body2">{content}</Typography>
