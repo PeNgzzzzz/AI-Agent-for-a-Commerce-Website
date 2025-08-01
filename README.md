@@ -45,6 +45,10 @@ Typical workflow:
 
 3. Visit [http://localhost:3000](http://localhost:3000) to use the agent.
 
+## Demo
+
+![AI Commerce Agent Demo](./demo.gif)
+
 ## Customization
 
 - **Add/edit products:** Edit `backend/catalog.json`
